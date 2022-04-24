@@ -17,4 +17,4 @@ reverse_target_word_index = np.load(path_np_1,allow_pickle='TRUE').item()
 # target_word_index = np.load('target_word_index.npy',allow_pickle='TRUE').item()
 # reverse_source_word_index = np.load('reverse_source_word_index.npy',allow_pickle='TRUE').item()
 
-st.write(reverse_target_word_index)
+st.write(reverse_target_word_index[1])
