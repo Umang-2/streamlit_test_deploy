@@ -16,9 +16,9 @@ path_np_1 = Path(__file__).parents[0]/ 'reverse_target_word_index.npy'
 path_np_2 = Path(__file__).parents[0]/ 'target_word_index.npy'
 path_np_3 = Path(__file__).parents[0]/ 'reverse_source_word_index.npy'
 reverse_target_word_index = np.load(path_np_1,allow_pickle='TRUE').item()
-target_word_index = np.load(path_np_2,allow_pickle='TRUE').item()
+# target_word_index = np.load(path_np_2,allow_pickle='TRUE').item()
 reverse_source_word_index = np.load(path_np_3,allow_pickle='TRUE').item()
 
 st.write(reverse_target_word_index[1])
-st.write(target_word_index[1])
+# st.write(target_word_index[1])
 st.write(reverse_source_word_index[1])
