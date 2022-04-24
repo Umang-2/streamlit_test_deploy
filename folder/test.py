@@ -11,9 +11,9 @@ st.write(path_df)
 df = pd.read_csv(path_df)
 st.write(df)
 
-
-reverse_target_word_index = np.load('reverse_target_word_index.npy',allow_pickle='TRUE').item()
-target_word_index = np.load('target_word_index.npy',allow_pickle='TRUE').item()
-reverse_source_word_index = np.load('reverse_source_word_index.npy',allow_pickle='TRUE').item()
+path_np_1 = Path(__file__).parents[0]/ 'reverse_target_word_index.npy'
+reverse_target_word_index = np.load(path_np_1,allow_pickle='TRUE').item()
+# target_word_index = np.load('target_word_index.npy',allow_pickle='TRUE').item()
+# reverse_source_word_index = np.load('reverse_source_word_index.npy',allow_pickle='TRUE').item()
 
 print(reverse_target_word_index)
