@@ -21,4 +21,4 @@ reverse_source_word_index = np.load(path_np_3,allow_pickle='TRUE').item()
 
 st.write(reverse_target_word_index[1])
 # st.write(target_word_index[1])
-st.write(reverse_source_word_index[1])
+st.write('Lol',reverse_source_word_index[1])
